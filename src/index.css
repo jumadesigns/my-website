@@ -1,75 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 body {
- /*  margin: 0; */
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("./bg-img.jpg");
   background-size: cover;
-  background-repeat:no-repeat; 
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
-.home-div{
-  
+.home-div {
   width: auto;
-  
 }
 
-.home-icons{
+.home-icons {
   color: azure;
   font-size: 35px;
   border-radius: 50px;
   margin: 10px;
 }
 
-.home-icons:hover{
+.home-icons:hover {
   border-radius: 50%;
-  border: 2px solid #C778DD;
+  border: 2px solid #c778dd;
 }
 
-span{
-  color: #C778DD;
+span {
+  color: #c778dd;
   text-decoration: none !important;
 }
 
-a, a:active, a:visited, a:focus, a:link{
+a,
+a:active,
+a:visited,
+a:focus,
+a:link {
   text-decoration: none !important;
   color: azure;
 }
 
-ul{
-  padding: 20px 20px; 
+ul {
+  padding: 20px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-li{
+li {
   display: inline;
   margin: 20px;
   color: azure;
   width: auto;
- /*  background-color: blue; */
 }
 
-a:hover{
+a:hover {
   color: rgb(156, 157, 157);
 }
 
-/* li:active{
-  color: #C778DD;
-  text-decoration: none !important;
-} */
-
-/* li:visited, li:link{
-    text-decoration: none !important;
-} */
-
-.heading-div{
+.heading-div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +70,7 @@ a:hover{
   margin-top: 70px;
 }
 
-.header-subtitle{
+.header-subtitle {
   color: azure;
   line-height: 150%;
   font-size: 19px;
@@ -92,15 +82,15 @@ a:hover{
   justify-content: center;
 }
 
-.btn{
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-Button{
+Button {
   margin-top: 7vh;
-  border: 2px solid #C778DD;
+  border: 2px solid #c778dd;
   padding: 8px 16px;
   gap: 10px;
   background-color: transparent;
@@ -108,7 +98,7 @@ Button{
   font-weight: 500;
   cursor: pointer;
   color: azure;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   text-align: center;
 
   display: flex;
@@ -116,91 +106,86 @@ Button{
   justify-content: center;
 }
 
-button:hover{
+button:hover {
   background-color: #6a3c76;
-  transition: linear .3s;
+  transition: linear 0.3s;
 }
 
-.logo-div{
+.logo-div {
   display: flex;
   align-items: center;
   justify-content: center;
- margin-top: 30px;
+  margin-top: 30px;
 }
 
-img{
+img {
   margin: 10px;
   margin-top: 5vh;
 }
 
-.about-me-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 50rem;
+.about-me-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
 }
 
-.card-1{
+.card-1 {
   margin-right: 10rem;
 }
 
-.hero-section-div{
+.hero-section-div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
 }
 
-.img-div{
+.img-div {
   margin-top: 3rem;
 }
 
-
-
-.card-title{
+.card-title {
   font-size: 30px;
   font-weight: 500;
   color: azure;
 }
 
+/* .section-2-image{
+ 
+} */
 
-.section-2-image{
-  /* background-color: black; */
-}
-
-Table{
+Table {
   color: azure;
   font-size: 16px;
   width: 100%;
-  
 }
 
-table{
+table {
   width: 100%;
 }
 
-.thead{
+.thead {
   margin: 20rem;
 }
 
-th{
+th {
   text-align: left;
 }
 
-.hero-section2-div{
+.hero-section2-div {
   margin-top: 3rem;
 }
 
-.skills-div{
+.skills-div {
   width: 50rem;
   margin-top: 1rem;
   margin-left: 25rem;
 }
 
-.footer-div{
+.footer-div {
   margin-top: 10rem;
   color: aliceblue;
   text-align: center;
-
 }
