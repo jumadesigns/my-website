@@ -1,6 +1,8 @@
 import "./index.css"
 import { Button } from "reactstrap";
 import { ImArrowRight2 } from "react-icons/im";
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { FiFigma } from "react-icons/fi";
 import React from 'react';
 
 import { Link } from 'react-router-dom';
@@ -33,9 +35,15 @@ function Home() {
       </div>
       
       <div className="logo-div">
-        <img src="images/github.png" alt="github" />
-        <img src="images/figma.png" alt="figma" />
-        <img src="images/linkedin.png" alt="linkedin" />
+        <a href="https://github.com/jumadesigns">
+        <BsGithub className="home-icons" href="https://github.com/jumadesigns"/>
+        </a>
+        <a href="https://shorturl.at/impu5">
+        <FiFigma className="home-icons"/>
+        </a>
+        <a href="https://www.linkedin.com/in/vnite/">
+        <BsLinkedin className="home-icons"/>
+        </a>                                                        
       </div>
 
       <div className="hero-section-div">

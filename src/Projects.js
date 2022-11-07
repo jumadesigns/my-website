@@ -16,7 +16,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/temp.png" />
           <h2 className="frame-text">Tempereature Control</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>REACT, CSS, NETLIFY</h4>
           </p>
 
@@ -49,7 +49,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/mbta.png" />
           <h2 className="frame-text">MBTA Train Finder</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>REACT, CSS, NETLIFY</h4>
           </p>
 
@@ -79,7 +79,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/cirmenu.png" />
           <h2 className="frame-text">Circle Menu</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>REACT, CSS, NETLIFY</h4>
           </p>
 
@@ -112,7 +112,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/mars.png" />
           <h2 className="frame-text">Photos from Mars</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>JAVASCRIPT, CSS, NETLIFY</h4>
           </p>
 
@@ -145,7 +145,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/search.png" />
           <h2 className="frame-text">Search Bar</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>REACT, CSS, NETLIFY</h4>
           </p>
 
@@ -178,7 +178,7 @@ function Projects() {
           <img className="frame-pic" alt="Sample" src="images/calc.png" />
           <h2 className="frame-text">Tips Calculator</h2>
           <p className="frame-text2">
-          Tech Stack:
+            Tech Stack:
             <h4>JAVASCRIPT, CSS, NETLIFY</h4>
           </p>
 
@@ -202,10 +202,13 @@ function Projects() {
           </div>
         </div>
 
-       
-
         <div className="frame-1">
-          <img className="frame-pic" alt="Sample" src="images/website.png" style={{border: "2px  solid azure"}} />
+          <img
+            className="frame-pic"
+            alt="Sample"
+            src="images/website.png"
+            style={{ border: "2px  solid azure" }}
+          />
           <h2 className="frame-text">This Website</h2>
           <p className="frame-text2">
             Tech Stack:
@@ -232,20 +235,18 @@ function Projects() {
           </div>
         </div>
 
-    
-
-         {/* UI DESIGNS */}
+        {/* UI DESIGNS */}
         <div>
-        <div className="ux-div">
-        <p className="section-1-div">
-          <span>#</span>my-ui-designs
-        </p>
-        <p style={{ color: "azure" }}>
-          This page features a list of some of my personal UI designs
-        </p>
-      </div>
+          <div className="ux-div">
+            <p className="section-1-div">
+              <span>#</span>my-ui-designs
+            </p>
+            <p style={{ color: "azure" }}>
+              This page features a list of some of my personal UI designs
+            </p>
+          </div>
         </div>
-        
+
         {/* BJ UI */}
         <div className="frame-1">
           <img className="frame-pic" alt="Sample" src="images/bj.png" />
@@ -329,16 +330,17 @@ function Projects() {
                 </Button> */}
           </div>
         </div>
-
-
       </div>
 
-
-     <div className="footer-div">
+      <div className="footer-div">
         <p>© Copyright 2022. Made with love by Victor Nite</p>
-        <p>Download code for this website <b style={{color: "#C778DD"}} href="">here</b></p>
+        <p>
+          Download code for this website{" "}
+          <b style={{ color: "#C778DD" }} href="">
+            here
+          </b>
+        </p>
       </div>
-      
     </div>
   );
 }

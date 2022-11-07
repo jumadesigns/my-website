@@ -19,6 +19,18 @@ body {
   
 }
 
+.home-icons{
+  color: azure;
+  font-size: 35px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.home-icons:hover{
+  border-radius: 50%;
+  border: 2px solid #C778DD;
+}
+
 span{
   color: #C778DD;
   text-decoration: none !important;
@@ -113,7 +125,7 @@ button:hover{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: black; */
+ margin-top: 30px;
 }
 
 img{

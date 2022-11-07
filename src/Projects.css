@@ -1,87 +1,80 @@
-.projct-div{
-    width: 70rem;
+.projct-div {
+  width: 70rem;
 }
 
-.projct-title{
-    color: azure;
+.projct-title {
+  color: azure;
 }
 
-#projects{
-    height: 350px;
+#projects {
+  height: 350px;
 }
 
-.projects{
-    float: left;
-    width:  360px;
-    height: 360px;
-    object-fit: cover;
-    margin-bottom: 40px;
+.projects {
+  float: left;
+  width: 360px;
+  height: 360px;
+  object-fit: cover;
+  margin-bottom: 40px;
 }
 
-.crd-btn{
-   display: flex;
-    justify-content: left;
-    align-items: center; 
-    width: 18rem; 
+.crd-btn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 18rem;
 }
 
-.list-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70rem;
-    flex-wrap: wrap;
+.list-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70rem;
+  flex-wrap: wrap;
 }
 
-/* #crd-title{
-    font-size: 28px;
-} */
-
-#btn22{
-    border: 2px solid #C778DD;
-    padding: 0.7rem;
+#btn22 {
+  border: 2px solid #c778dd;
+  padding: 0.7rem;
 }
 
-#btn22:hover{
-    background-color: #6a3c76;
-    transition: linear .3s;
+#btn22:hover {
+  background-color: #6a3c76;
+  transition: linear 0.3s;
 }
 
-.frame-1{
-    height: 30rem;
-    width: 18rem;
-    position: relative;
-    
+.frame-1 {
+  height: 30rem;
+  width: 18rem;
+  position: relative;
 }
 
-.frame-pic{
-    height: 15rem;
-    width: 18rem;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-    object-fit: cover;
-    
+.frame-pic {
+  height: 15rem;
+  width: 18rem;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  object-fit: cover;
 }
 
-.frame-text{
-    margin-top: 16rem;
-    color: azure;
+.frame-text {
+  margin-top: 16rem;
+  color: azure;
 }
 
-.frame-text2{
-    margin-top: -0.7rem;
-    color: azure;
+.frame-text2 {
+  margin-top: -0.7rem;
+  color: azure;
 }
 
-.project-title2{
-    margin-top: -9rem;
-    color: azure;
-    background-color: blanchedalmond;
+.project-title2 {
+  margin-top: -9rem;
+  color: azure;
+  background-color: blanchedalmond;
 }
 
-.ux-div{
-    margin-top: -4rem;
-    width: 1000px;
-   /*  background-color: #6a3c76; */
+.ux-div {
+  margin-top: -4rem;
+  width: 1000px;
 }
