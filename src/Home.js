@@ -145,7 +145,14 @@ function Home() {
 
       <div className="footer-div">
         <p>© Copyright 2022. Made with love by Victor Nite</p>
-        <p>Download code for this website <b style={{color: "#C778DD"}} href="" >here</b></p>
+        <p>
+          Download code for this website{" "}
+          <a href="https://github.com/jumadesigns/my-website">
+          <b style={{ color: "#C778DD" }} >
+            here
+          </b>
+          </a>
+        </p>
       </div>
 
 
