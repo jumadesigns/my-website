@@ -1,0 +1,24 @@
+.contact-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.contact-title {
+  color: azure;
+}
+
+.email {
+  color: rgb(193, 194, 194);
+}
+
+.links {
+  font-size: 20px;
+  color: azure;
+}
+
+.logo-div-contact {
+  margin-top: -2rem !important;
+}
