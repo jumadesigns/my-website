@@ -152,14 +152,14 @@ function Projects() {
           <div className="crd-btn">
             <Button
               id="btn22"
-              href=""
+              href="https://github.com/jumadesigns/searchbar"
               style={{
                 margin: "0rem",
               }}
             >
-              View Live
+              View Code
             </Button>
-            <Button
+            {/* <Button
               id="btn22"
               href="https://github.com/jumadesigns/searchbar"
               style={{
@@ -169,7 +169,7 @@ function Projects() {
               }}
             >
               View Code
-            </Button>
+            </Button> */}
           </div>
         </div>
 
@@ -218,7 +218,7 @@ function Projects() {
           <div className="crd-btn">
             <Button
               id="btn22"
-              href=""
+              href="https://github.com/jumadesigns/my-website"
               style={{
                 margin: "0rem",
               }}
